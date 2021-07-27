@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework import generics
-from api.models import Country, Region
+from api.models import Country
 from api.serializers import CountrySerializer
 
 
